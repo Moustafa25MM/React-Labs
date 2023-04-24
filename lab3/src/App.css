@@ -1,0 +1,152 @@
+.home {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.home h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.home p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.home ul {
+  margin-bottom: 20px;
+}
+
+.home li {
+  font-size: 1.25rem;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.home a {
+  color: #007bff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.home a:hover {
+  text-decoration: underline;
+}
+
+.navbar {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-item {
+  margin-right: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar-link:hover {
+  text-decoration: underline;
+}
+.posts {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.search-input {
+  font-size: 1.2rem;
+  padding: 10px;
+  border: solid blue;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-radius: 4px solid;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.post-link {
+  color: violet;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.post-link:hover {
+  text-decoration: underline;
+}
+
+.post-button {
+  background-color:saddlebrown;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+.post-button:hover {
+  background-color: wheat ;
+}
+.post-body {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #555;
+}
+
+.no-results-message {
+  margin-top: 1rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+.post-card {
+  border: 4px solid;
+  border-radius: 5px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: border-color 0.3s ease;
+}
+
+.post-title {
+  margin-top: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.post-body {
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.post-card:hover {
+  border-color: #007bff;
+}
+
